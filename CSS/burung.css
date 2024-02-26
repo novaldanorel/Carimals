@@ -1,18 +1,15 @@
-body.dark-mode {
-    background-color: #6C733D;
-    color: black;
-}
+
 
 svg {
     margin-left: 40px;
 }
 
 .navbar {
-    background-color: #8c8c88;
+    background-color: #00BF63;
 }
 
 body {
-    background-color: #9DA65D;
+    background-color: #B9F4A0;
     color: #000;
 }
 
@@ -22,7 +19,7 @@ body {
 
 
 .navbar-dark .navbar-toggler-icon {
-    background-color: #8c8c88;
+    background-color: #00BF63;
 }
 
 #modeToggleContainer {
