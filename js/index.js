@@ -8,5 +8,5 @@ document.querySelector('.img').addEventListener('animationend', showFooter);
 
 // Pengalihan halaman setelah beberapa detik
 setTimeout(function() {
-  window.location.href = "...";
+  window.location.href = "layar-awal.html";
 }, 4000);
