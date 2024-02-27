@@ -1,0 +1,47 @@
+ /* CSS untuk mengatur tata letak dan gaya tampilan layar pembuka */
+ body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B9F4A0;
+    height: 100vh; /* Tambahkan agar konten berada di tengah layar */
+  }
+
+  .container {
+    overflow: hidden;
+  }
+
+  .img {
+    animation: enlarge 2s forwards;
+  }
+
+  #splash {
+    text-align: center;
+    padding-top: 20%; /* Ubah menjadi persen agar tetap berada di tengah */
+  }
+
+  .footer {
+    display: none; /* Sembunyikan footer awalnya */
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: black;
+    padding: 10px 0;
+  }
+
+  @keyframes enlarge {
+    80% {
+      width: 250px;
+    }
+    90% {
+      width: 290px;
+    }
+    100% {
+      width: 300px;
+    }
+
+  }
