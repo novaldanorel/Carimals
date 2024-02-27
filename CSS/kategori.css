@@ -34,13 +34,6 @@ body {
   padding-bottom: 10px;
 }
 
-#modeToggleContainer.dark-mode::before {
-  content: "\1F319"; /* Karakter bulan */
-  color: #fff; /* Warna ikon bulan pada mode gelap */
-  background-color: #8c8c88;
-  padding-bottom: 10px;
-}
-
 h2 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
